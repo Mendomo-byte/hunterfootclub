@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Foot Club</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">FootClub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#actu">Actualités</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipe">Équipe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-dark text-white text-center p-5">
+        <h1 class="display-4 fw-bold">Bienvenue sur FootClub</h1>
+        <p class="lead">Toute l'actualité, les résultats et les infos de votre équipe préférée.</p>
+        <a href="#actu" class="btn btn-warning btn-lg mt-3">Voir les actualités</a>
+    </section>
+
+    <!-- Actualités -->
+    <section id="actu" class="container py-5">
+        <h2 class="text-center mb-4">Actualités</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Victoire importante!</h5>
+                        <p class="card-text">Notre équipe s'impose 3-1 lors du dernier match. Une performance remarquable.</p>
+                        <a href="#" class="btn btn-primary">Lire plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Entraînement intensif</h5>
+                        <p class="card-text">Les joueurs se préparent pour le prochain match décisif.</p>
+                        <a href="#" class="btn btn-primary">Lire plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Nouvelle recrue</h5>
+                        <p class="card-text">Un jeune talent rejoint le club cette saison.</p>
+                        <a href="#" class="btn btn-primary">Lire plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Équipe -->
+    <section id="equipe" class="bg-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">L'Équipe</h2>
+            <p class="text-center">Présentation des joueurs et du staff technique.</p>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container py-5">
+        <h2 class="text-center mb-4">Contact</h2>
+        <form class="mx-auto" style="max-width: 600px;">
+            <div class="mb-3">
+                <label class="form-label">Nom</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="4" required></textarea>
+            </div>
+            <button class="btn btn-dark w-100">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        © 2025 FootClub - Tous droits réservés.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
